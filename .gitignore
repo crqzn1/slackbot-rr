@@ -1,0 +1,11 @@
+*.pyc
+.idea/
+
+__pycache__
+devenv/
+
+dimebot/db.sqlite3
+dimebot/.env
+
+tmp.py
+dummy.py
