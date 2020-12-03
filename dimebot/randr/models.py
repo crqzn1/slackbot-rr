@@ -2,17 +2,6 @@ from django.db import models
 
 # Create your models here.
 
-class Article(models.Model):
-    title = models.CharField(max_length=32, default='Title')
-    content = models.TextField(null=True)
-
-
-# import re
-# import slackdown
-# import json
-# from chat import managers
-# from django.db import models
-
 class ChatChannel(models.Model):
     """
     A Slack channel logged by this application.

@@ -21,10 +21,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv("secret_key")
-# SECRET_KEY = 'xe4z$c9&vz&0xd!7fdf+8!b-!m#j(5z#qlbt*goqy3-t5ud0_)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # added by TX
 DEVELOPMENT = True
@@ -142,5 +141,5 @@ STATIC_URL = '/static/'
 # Adding our API keys from our .env file
 # SLACK_APP_TOKEN = os.getenv("slack_app_token")
 SLACK_BOT_TOKEN = os.getenv("slack_bot_token")
-# SLACK_VERIFICATION_TOKEN = os.getenv("slack_verification_token")
+SLACK_VERIFICATION_TOKEN = os.getenv("slack_verification_token")
 SLACK_SIGNING_SECRET = os.getenv("slack_signing_setret")
